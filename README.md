@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 * [X] Playback speeds up on each turn
 * [X] Computer picks a different pattern each time the game is played
 * [X] Player only loses after 3 mistakes (instead of on the first mistake)
-* [X] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
 
@@ -41,24 +41,19 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-Basic Functionality: 
-<img src="http://g.recordit.co/x4XlvRwFoo.gif" wdith=250><br>
-Lose:
-<img src="http://g.recordit.co/9wXjvSO0Rm.gif" wdith=250><br>
-Win:
-<img src="http://g.recordit.co/aURv8x8a0x.gif" wdith=250><br>
+* Win: 
+<br><img src="https://media.giphy.com/media/aAzvf4d3yuKQIq2INJ/giphy.gif" width=400><br>
+* Lose:
+<br><img src="https://media.giphy.com/media/8qBQFSXkH23Wcaa6cy/giphy.gif" width=400><br>
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 Stackoverflow, W3Schools, Canva.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-The most challenging thing I encountered was 
-A challenge I faced when creating this project was programming in JavaScript, particularly with implementing the increased playback and winning light sequence feature. I am not very familiar with JavaScript and so was initially confused about how the setTimeout function worked (which is the key function needed for both features). I’m comfortable with Java so the basic logic and approach to problem solving wasn’t bad, but it still took some time working with a new-ish language. The main issue I encountered with the playback feature was figuring out how exactly setTimeout worked and what exactly the variables clueHoldTime, cluePauseTime, and nextClueWaitTime, represented. I solved these issues by googling and re-reading the tutorial. From there, I worked through the functions used to play a clue/sequence of clues, but eventually ran into a roadblock, which ultimately occurred because I didn’t realize clueHoldTime, cluePauseTime, and nextClueWaitTime, were all const vars. At this point, I had gone over the correct program logic so many times, that I almost cried when realizing the cause was such a simple mistake. From there it was (relatively) smooth sailing!
-
-A little blip that I encountered, somewhat related to the setTimeout function, was working with the alert function. I did not realize that you could not delay alert, which made implementing the winning light sequence feature (which plays a special sequence of tiles when the player wins before displaying the message), challenging. I figured out the issue by reading stackoverflow, and ultimately fixed the issue by removing the feature entirely and instead displaying a more customized (and in my opinion, cute!) win/lose message on the site itself. 
-
-Another challenge, or moreso something new (and really interesting!), that I faced was working with the JavaScript HTML DOM object. This is something I had never seen nor worked with, but was super cool! I didn’t realize that JavaScript was so interwoven with pure HTML. After reading some tutorials on the feature, I realized the basics of how it manipulated HTML elements by first finding the element, and then proceeding to change the values/styling of the identified HTML element. From there I utilized the feature in implementing the multiple chances feature, and presentation of "YOU WIN" or "YOU LOSE" announcement.
+* A challenge I faced when creating this project was programming in JavaScript, particularly with implementing the increased playback and winning light sequence feature. I am not very familiar with JavaScript and so was initially confused about how the setTimeout function worked (which is the key function needed for both features). I’m comfortable with Java so the basic logic and approach to problem solving wasn’t bad, but it still took some time working with a new-ish language. The main issue I encountered with the playback feature was figuring out how exactly setTimeout worked and what exactly the variables clueHoldTime, cluePauseTime, and nextClueWaitTime, represented. I solved these issues by googling and re-reading the tutorial. From there, I worked through the functions used to play a clue/sequence of clues, but eventually ran into a roadblock, which ultimately occurred because I didn’t realize clueHoldTime, cluePauseTime, and nextClueWaitTime, were all const vars. At this point, I had gone over the correct program logic so many times, that I almost cried when realizing the cause was such a simple mistake. From there it was (relatively) smooth sailing!
+* A little blip that I encountered, somewhat related to the setTimeout function, was working with the alert function. I did not realize that you could not delay alert, which made implementing the winning light sequence feature (which plays a special sequence of tiles when the player wins before displaying the message), challenging. I figured out the issue by reading stackoverflow, and ultimately fixed the issue by removing the feature entirely and instead displaying a more customized (and in my opinion, cute!) win/lose message on the site itself. 
+* Another challenge, or moreso something new (and really interesting!), that I faced was working with the JavaScript HTML DOM object. This is something I had never seen nor worked with, but was super cool! I didn’t realize that JavaScript was so interwoven with pure HTML. After reading some tutorials on the feature, I realized the basics of how it manipulated HTML elements by first finding the element, and then proceeding to change the values/styling of the identified HTML element. From there I utilized the feature in implementing the multiple chances feature, and presentation of "YOU WIN" or "YOU LOSE" announcement.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 * How does the backend work ??
