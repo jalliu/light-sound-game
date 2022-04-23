@@ -49,15 +49,28 @@ Win:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+Stackoverflow, W3Schools, Canva.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+The most challenging thing I encountered was 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-
+* How does the backend work ??
+  * This is sort of related to the next question, but how exactly does the frontend work with the backend (with a framework I’m assuming…). I’m not familiar with backend web development at all, and all my experience with web development has been working with frontend and design work as a tech organizer at my university’s hackathon. I’m not familiar with how frameworks work, but have been learning it on my own and am still confused but very fascinated with what exactly backend operations of a website “look” like and entail. 
+* How are websites which handle tons and tons of traffic developed and maintained? 
+  * I thought about this a lot when considering some of the other features I wanted to add to the game, which included creating a player base and leaderboard. I’m really interested in learning how companies create websites that handle that much traffic and ensure security of their user’s information. 
+* What do best practices look like? Particularly in regards to the accessibility of websites?
+  * This is a topic I’ve always been incredibly interested in. Like everyone else, I love sleek and exciting animations and color schemes, but a lot of times those design choices come at the cost of limiting the accessibility of a website or application. So, I’m interested in how professional software developers approach this topic, especially in a time where the Internet and technology is becoming an essential part all of our daily lives. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+* Issues I’d fix: 
+  * I would first clean up my code (reformatting, refactoring parts of code to reduce redundancy) and add better documentation.
+  * I want to make the website more responsive. Currently, the game doesn’t really work on my phone because the rightmost/leftmost buttons get partially cut off. It also just doesn’t look or feel (touch/scroll behavior) very clean on mobile devices. I’d probably use Bootstrap and media queries to make it more compatible with smaller devices. 
+  * Fix issue with user pressing buttons while the current clue is being played. Sometimes what happens is the user clicks on a tile while the pattern is being presented, which causes a lot of confusion and sometimes messes up the presentation sequence/lives counter. To fix this, I’d make it so that user interactions with the buttons during a play sequence will be ignored (not produce any response). 
+
+* Some features I’d want to add would be: 
+  * Hard mode where the order of the tiles would change every round. This would make the game a lot more difficult and force the player to focus on the color/sound association rather than plain old muscle memory with the positioning of the tiles. 
+  * Add a rhythm aspect to the game. This would be done by making clues have varying wait/play times, which would allow us to create rhythms with the patterns. I think this feature would not only add an interesting dimension to the game, but also be a cool way to introduce people to basic music theory concepts. The actual rhythm of the pattern sequence could even be displayed, which would be a fun way to teach people how to read rhythms and keep musical time.
 
 ## Interview Recording URL Link
 
