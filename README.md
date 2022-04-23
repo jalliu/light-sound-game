@@ -41,13 +41,11 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 Basic Functionality: 
-(http://g.recordit.co/x4XlvRwFoo.gif)
-
+<img src="http://g.recordit.co/x4XlvRwFoo.gif" wdith=250><br>
 Lose:
-(http://g.recordit.co/9wXjvSO0Rm.gif)
-
+<img src="http://g.recordit.co/9wXjvSO0Rm.gif" wdith=250><br>
 Win:
-(http://g.recordit.co/aURv8x8a0x.gif)
+<img src="http://g.recordit.co/aURv8x8a0x.gif" wdith=250><br>
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
