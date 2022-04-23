@@ -1,12 +1,13 @@
 # Pre-work - *Memory Game*
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's FTL Program. 
 
 Submitted by: Jana Liu
 
 Time spent: **4-5** hours spent in total
 
-Link to project: https://pear-majestic-track.glitch.me/
+Link to site: https://pear-majestic-track.glitch.me
+Link to code: https://glitch.com/edit/#!/pear-majestic-track
 
 ## Required Functionality
 
@@ -53,6 +54,11 @@ Stackoverflow, W3Schools, Canva.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 The most challenging thing I encountered was 
+A challenge I faced when creating this project was programming in JavaScript, particularly with implementing the increased playback and winning light sequence feature. I am not very familiar with JavaScript and so was initially confused about how the setTimeout function worked (which is the key function needed for both features). I’m comfortable with Java so the basic logic and approach to problem solving wasn’t bad, but it still took some time working with a new-ish language. The main issue I encountered with the playback feature was figuring out how exactly setTimeout worked and what exactly the variables clueHoldTime, cluePauseTime, and nextClueWaitTime, represented. I solved these issues by googling and re-reading the tutorial. From there, I worked through the functions used to play a clue/sequence of clues, but eventually ran into a roadblock, which ultimately occurred because I didn’t realize clueHoldTime, cluePauseTime, and nextClueWaitTime, were all const vars. At this point, I had gone over the correct program logic so many times, that I almost cried when realizing the cause was such a simple mistake. From there it was (relatively) smooth sailing!
+
+A little blip that I encountered, somewhat related to the setTimeout function, was working with the alert function. I did not realize that you could not delay alert, which made implementing the winning light sequence feature (which plays a special sequence of tiles when the player wins before displaying the message), challenging. I figured out the issue by reading stackoverflow, and ultimately fixed the issue by removing the feature entirely and instead displaying a more customized (and in my opinion, cute!) win/lose message on the site itself. 
+
+Another challenge, or moreso something new (and really interesting!), that I faced was working with the JavaScript HTML DOM object. This is something I had never seen nor worked with, but was super cool! I didn’t realize that JavaScript was so interwoven with pure HTML. After reading some tutorials on the feature, I realized the basics of how it manipulated HTML elements by first finding the element, and then proceeding to change the values/styling of the identified HTML element. From there I utilized the feature in implementing the multiple chances feature, and presentation of "YOU WIN" or "YOU LOSE" announcement.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 * How does the backend work ??
