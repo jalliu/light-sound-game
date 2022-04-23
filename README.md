@@ -6,7 +6,7 @@ Submitted by: Jana Liu
 
 Time spent: **4-5** hours spent in total
 
-Link to site: https://pear-majestic-track.glitch.me
+Link to site: https://pear-majestic-track.glitch.me <br>
 Link to code: https://glitch.com/edit/#!/pear-majestic-track
 
 ## Required Functionality
@@ -44,7 +44,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 * Win: 
 <br><img src="https://media.giphy.com/media/aAzvf4d3yuKQIq2INJ/giphy.gif" width=400><br>
 * Lose:
-<br><img src="https://media.giphy.com/media/8qBQFSXkH23Wcaa6cy/giphy.gif" width=400><br>
+<br><img src="https://media.giphy.com/media/GUjV8vrt4X4eBDtzWk/giphy.gif" width=400><br>
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
